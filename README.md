@@ -1,8 +1,6 @@
-# VarsinityDBMerger
-
 ![Banner](https://codehs.com/uploads/62ebc28cf290a5af5f30c9a705221c93)
 
-A high-performance, glassmorphism-styled Windows tool for merging and managing game databases with ease.
+Do you have a decrypted gameDB that has lots of customization but also want a gameDB from a car model mod that includes slots that aren't in your main? This tool will merge that mod DB into your main DB so you can enjoy both at once!
 
 ## ✨ Features
 * **Intelligent Merging:** Syncs tables between source (mod) and target (game) databases using robust `INSERT OR REPLACE` logic.
