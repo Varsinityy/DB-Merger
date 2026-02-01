@@ -19,13 +19,12 @@ Do you have a decrypted gameDB that has lots of customization but also want a ga
 ---
 
 ## 🚀 Setup & Usage
-1.  **Launch:** Run `VarsinityDBMerger.exe` or `python main.py`.
+1.  **Launch:** Run `Varsinity's DB Merger.exe`.
 2.  **Select Targets:**
     * **Target Database:** The main game file you want to update.
     * **Source Database:** The mod/donor file containing the new data.
-3.  **Options:** Toggle "Include Rims and Tire Data" if your mod requires wheel table syncing.
-4.  **Execute:** Click **Execute Database Merge**.
-5.  **Verify:** Check the **Operation Log** for real-time status updates.
+3.  **Execute:** Click **Execute Database Merge**.
+4.  **Verify:** Check the **Operation Log** for real-time status updates.
 
 ---
 
