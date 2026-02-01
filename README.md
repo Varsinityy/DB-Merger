@@ -25,6 +25,7 @@ Do you have a decrypted gameDB that has lots of customization but also want a ga
     * **Source Database:** The mod/donor file containing the new data.
 3.  **Execute:** Click **Execute Database Merge**.
 4.  **Verify:** Check the **Operation Log** for real-time status updates.
+5.  **Done!:** Launch the game! It will update your main DB.
 
 ---
 
