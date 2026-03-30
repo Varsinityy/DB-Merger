@@ -19,7 +19,7 @@ Do you have a decrypted gameDB that has lots of customization but also want a ga
 ---
 
 ## 🚀 Setup & Usage
-1.  **Launch:** Run `Varsinity's DB Merger.exe`.
+1.  **Launch:** Run `DBMerger.exe`.
 2.  **Select Targets:**
     * **Target Database:** The main game file you want to update.
     * **Source Database:** The mod/donor file containing the new data.
