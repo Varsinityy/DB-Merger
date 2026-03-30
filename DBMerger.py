@@ -909,7 +909,7 @@ class DBMerger(DraggableMixin, ctk.CTk):
                                         exe_url = asset.get("browser_download_url")
                                         break
                                 if exe_url:
-                                    threading.Thread(target=self.ExecuteAutoUpdate, args=(exe_url,), daemon=True).start()
+                                    threading.Thread(target=self.executeAutoUpdate, args=(exe_url,), daemon=True).start()
                                 else:
                                     messagebox.showerror("Error", "Could not find the .exe in the latest release.")
 
@@ -1198,10 +1198,10 @@ class DBMerger(DraggableMixin, ctk.CTk):
 
     def executeMerge(self, master, source):
         def setProgress(val, text=""):
-            self.after(0, lambda: self._updateProgress(val, text))
+            self.after(0, lambda: self.updateProgress(val, text))
 
         def setStatus(icon, text, color=None):
-            self.after(0, lambda: self._updateStatus(icon, text, color or COLORS["text_primary"]))
+            self.after(0, lambda: self.updateStatus(icon, text, color or COLORS["text_primary"]))
 
         try:
             for label, path in [("Target", master), ("Source", source)]:
