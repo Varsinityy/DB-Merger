@@ -4,7 +4,7 @@ Do you have a decrypted gameDB that has lots of customization but also want a ga
 
 ## Features
 * **Intelligent Merging:** Syncs tables between source (mod) and target (game) databases using robust `INSERT OR REPLACE` logic.
-* **Automated Backups:** Generates a `.bak` snapshot before every operation—never lose your progress.
+* **Automated Backups:** Generates a `.bak` snapshot before every operation, never lose your progress.
 * **Quick Merge Library:** Save custom configurations and favorite file paths for one-click execution.
 * **Integrated Restore:** Roll back to previous database states directly from the **Backup History** dashboard.
 * **Modern UI:** Optimized for Windows 10/11 with DPI awareness, rounded corners, and a sleek dark theme.
